@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Typing Game</title>
+	<link rel="stylesheet" href="applied.css" />
+</head>
+<body>
+
+	
+	<div id="keyboard">
+		<input type=text name="shower" id="shower" value="a" disabled >
+		<input type=text name="changer" id="changer" >
+		<input type="text" id="clock"/>
+	<div id="firstrow">
+		<div id="qid"><h1>Q</h1></div>
+		<div id="wid"><h1>W</h1></div>
+		<div id="eid"><h1>E</h1></div>
+		<div id="rid"><h1>R</h1></div>
+		<div id="tid"><h1>T</h1></div>
+		<div id="yid"><h1>Y</h1></div>
+		<div id="uid"><h1>U</h1></div>
+		<div id="iid"><h1>I</h1></div>
+		<div id="oid"><h1>O</h1></div>
+		<div id="pid"><h1>P</h1></div>
+		<div id="cha1id"><h2>{</h2><h2>[</h2></div>
+		<div id="cha2id"><h2>}</h2><h2>]</h2></div>
+	</div><br>
+	<div id="secondrow">
+		<div id="aid"><h1>A</h1></div>
+		<div id="sid"><h1>S</h1></div>
+		<div id="did"><h1>D</h1></div>
+		<div id="fid"><h1>F</h1></div>
+		<div id="gid"><h1>G</h1></div>
+		<div id="hid"><h1>H</h1></div>
+		<div id="jid"><h1>J</h1></div>
+		<div id="kid"><h1>K</h1></div>
+		<div id="lid"><h1>L</h1></div>
+		<div id="cha3id"><h2>:</h2><h2>;</h2></div>
+		<div id="cha4id"><h2>"</h2><h2>'</h2></div>
+	</div><br>
+	<div id="thirdrow">
+		<div id="zid"><h1>Z</h1></div>
+		<div id="xid"><h1>X</h1></div>
+		<div id="cid"><h1>C</h1></div>
+		<div id="vid"><h1>V</h1></div>
+		<div id="bid"><h1>B</h1></div>
+		<div id="nid"><h1>N</h1></div>
+		<div id="mid"><h1>M</h1></div>
+		<div id="cha5id"><h2><</h2><h2>,</h2></div>
+		<div id="cha6id"><h2>></h2><h2>.</h2></div>
+		<div id="cha7id"><h2>?</h2><h2>/</h2></div>
+		
+		<button id="toend" onclick="initial()">restart</button>
+		
+	</div></div>
+	
+<div id="tohide">
+	<h1 style="text-align:center; font-size:60px;">Result</h1><br>
+	<input type=text id="nicee" value="Right" style="color:#5eff22;" disabled><br><br>
+	<input type=text id="badd" value="Wrong" style="color:red;" disabled><br><br>
+	<input type=text id="total" value="Total" style="color:yellow;" disabled><br><br>
+	<input type=text id="time" value="Time" disabled style="color:white;">
+	<input type="text" id="en" style="display:none;" />
+</div>
+	
+	
+	
+<div id="forstart">
+<h1>Excel Excellence</h1>
+<h2>Typing Tutor</h2>
+<div id="levels">
+<button id="lv1" onclick="lev1();">Level - 1</button><br>
+<button id="lv2" onclick="lev2();">Level - 2</button><br>
+<button id="lv3" onclick="lev3();" >Level - 3</button><br><br><br>
+<h3 style="color:white; font-size:20px; text-align:center;">Develope By Rkcoder </h3>
+</div>
+</div>	
+
+<h1 id="startbtn" onclick="initial()">Start</h1>
+
+
+<label id="closebtn" onclick="window.close();" >close</label>
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" src="javascript.js" ></script>
+	
+	
+</body>
+</html>
